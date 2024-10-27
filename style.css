@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&display=swap');
+
+
+header{
+    background-image: url(fotos/foto\ na\ lagoa.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin: -44px -8px -59px -8px;
+    padding: 1px 0px;
+}
+
+header > h1{
+    font-family: "Love ya like a sister";
+    text-align: center;
+    color: #dd4e4e;
+    font-size: 4em;
+    text-shadow: -3px 3px 2px #000000;
+    margin-top: 85px;
+    margin-bottom: 61px;
+}
+
+main{
+    background-image: url('fotos/fundo\ do\ site.jpeg');
+    margin: 0px -8px;
+}
+
+.paragrafotopo{
+    color: black;
+    font-size: 2.5em;
+    font-family: "Agdasima", sans-serif;
+    text-align: center;
+    font-weight: 700;
+    padding-top: 40px;
+    text-shadow: 3px 3px 4px #ffffff;
+}
+
+#containeresquerdo{
+    display: flex;
+    padding-left: 20px;
+    flex-direction: row;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.fotodoshow{
+    width: 500px;
+    height: 250px;
+    border: 2px solid #dd4e4e;
+    border-radius: 10px;
+    background-image: url(fotos/foto\ do\ dia\ do\ show\ de\ belo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.paragrafodaimagemesquerda{
+    color: black;
+    text-decoration: none;
+    text-shadow: 3px 3px 4px #ffffff;
+    font-family: "Agdasima", sans-serif;
+    font-weight: bold;    
+    font-size: 40px;
+    padding-top: 60px;
+    padding-left: 5px;
+}
+
+.fotopreferidadela{
+    width: 500px;
+    height: 250px;
+    border: 2px solid #dd4e4e;
+    border-radius: 10px;
+    background-image: url(fotos/foto\ preferida\ dela.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: contain;
+}
+
+#containerdireito{
+    display: flex;
+    padding-right: 20px;
+    flex-direction: row-reverse;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.paragrafodaimagemdireita{
+    color: black;
+    text-decoration: none;
+    text-shadow: 3px 3px 4px #ffffff;
+    font-family: "Agdasima", sans-serif;
+    font-weight: bold;    
+    font-size: 40px;
+    padding-top: 60px;
+    padding-right: 5px;
+}
+
+.sirlene{
+    width: 500px;
+    height: 250px;
+    border: 2px solid #dd4e4e;
+    border-radius: 10px;
+    background-image: url(fotos/sirlene.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
