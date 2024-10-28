@@ -3,3 +3,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&display=swap');
+
+
+header{
+    background-color: #dd4e4e;
+    margin: -86px -8px -61px -8px;
+    padding: 1px -1px;
+}
+
+header > h1{
+    text-align: center;
+    color: #ffffff;
+    font-family: "Love ya like a sister";
+    font-size: 3.5em;
+    text-shadow: -3px 3px 2px #000000;
+    margin-top: 85px;
+    margin-bottom: 61px;
+}
+
+body{
+    background-image: url('fotos/fundo\ do\ site.jpeg');
+
+}

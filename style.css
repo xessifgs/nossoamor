@@ -73,10 +73,14 @@ main{
     text-shadow: 3px 3px 2px #000000;
     font-family: "Agdasima", sans-serif;
     font-weight: bold;    
-    font-size: 40px;
+    font-size: 35px;
     padding-top: 60px;
     padding-left: 5px;
     min-width: 200px;
+}
+
+.paragrafodaimagemesquerda:hover{
+    text-decoration: underline;
 }
 
 .fotopreferidadela{
@@ -105,10 +109,14 @@ main{
     text-shadow: 3px 3px 2px #000000;
     font-family: "Agdasima", sans-serif;
     font-weight: bold;    
-    font-size: 40px;
+    font-size: 35px;
     padding-top: 60px;
     padding-right: 5px;
     padding-left: 30px;
+}
+
+.paragrafodaimagemdireita:hover{
+    text-decoration: underline;
 }
 
 .sirlene{
