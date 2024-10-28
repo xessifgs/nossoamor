@@ -4,7 +4,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&display=swap');
 
-
 header{
     background-color: #dd4e4e;
     margin: -86px -8px -61px -8px;
@@ -24,4 +23,25 @@ header > h1{
 body{
     background-image: url('fotos/fundo\ do\ site.jpeg');
 
+}
+
+main{
+    background-color: #ffffff;
+    margin: auto;
+    min-width: 400px;
+    max-width: 900px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px #0000008f;
+    padding-bottom: 20px;
+}
+
+main > p{
+    text-align: justify;
+    color: #000000;
+    font-size: 1.8em;
+    font-family: "Agdasima", sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-indent: 20px;
+    font-weight: 500;
 }
