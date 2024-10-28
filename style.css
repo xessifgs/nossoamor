@@ -10,7 +10,7 @@ header{
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
-    margin: -44px -8px -59px -8px;
+    margin: -44px -8px -40px -8px;
     padding: 1px 0px;
 }
 
@@ -24,19 +24,27 @@ header > h1{
     margin-bottom: 61px;
 }
 
-main{
+body{
     background-image: url('fotos/fundo\ do\ site.jpeg');
-    margin: 0px -8px;
+}
+
+main{
+    background-color: #dd4e4e;
+    margin: auto;
+    min-width: 400px;
+    max-width: 1000px;
+    width: auto;
+    border-radius: 10px;
 }
 
 .paragrafotopo{
-    color: black;
+    color: #ffffff;
     font-size: 2.5em;
     font-family: "Agdasima", sans-serif;
     text-align: center;
     font-weight: 700;
     padding-top: 40px;
-    text-shadow: 3px 3px 4px #ffffff;
+    text-shadow: 3px 3px 2px #000000;
 }
 
 #containeresquerdo{
@@ -49,8 +57,9 @@ main{
 
 .fotodoshow{
     width: 500px;
-    height: 250px;
-    border: 2px solid #dd4e4e;
+    min-height: 210px;
+    max-height: 300px;
+    border: 3px solid #ffffff;
     border-radius: 10px;
     background-image: url(fotos/foto\ do\ dia\ do\ show\ de\ belo.jpg);
     background-position: center;
@@ -59,20 +68,22 @@ main{
 }
 
 .paragrafodaimagemesquerda{
-    color: black;
+    color: white;
     text-decoration: none;
-    text-shadow: 3px 3px 4px #ffffff;
+    text-shadow: 3px 3px 2px #000000;
     font-family: "Agdasima", sans-serif;
     font-weight: bold;    
     font-size: 40px;
     padding-top: 60px;
     padding-left: 5px;
+    min-width: 200px;
 }
 
 .fotopreferidadela{
     width: 500px;
-    height: 250px;
-    border: 2px solid #dd4e4e;
+    min-height: 210px;
+    max-height: 300px;
+    border: 3px solid #ffffff;
     border-radius: 10px;
     background-image: url(fotos/foto\ preferida\ dela.jpg);
     background-position: center;
@@ -89,20 +100,22 @@ main{
 }
 
 .paragrafodaimagemdireita{
-    color: black;
+    color: white;
     text-decoration: none;
-    text-shadow: 3px 3px 4px #ffffff;
+    text-shadow: 3px 3px 2px #000000;
     font-family: "Agdasima", sans-serif;
     font-weight: bold;    
     font-size: 40px;
     padding-top: 60px;
     padding-right: 5px;
+    padding-left: 30px;
 }
 
 .sirlene{
     width: 500px;
-    height: 250px;
-    border: 2px solid #dd4e4e;
+    min-height: 210px;
+    max-height: 300px;
+    border: 3px solid #ffffff;
     border-radius: 10px;
     background-image: url(fotos/sirlene.png);
     background-position: top center;
