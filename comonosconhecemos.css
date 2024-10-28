@@ -1,1 +1,58 @@
 @charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&display=swap');
+
+header{
+    background-image: url(fotos/foto\ do\ dia\ do\ show\ de\ belo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin: -44px -8px -24px -8px;
+    padding: 1px 0px;
+}
+
+header > h1{
+    text-align: center;
+    color: #dd4e4e;
+    font-family: "Love ya like a sister";
+    font-size: 4em;
+    text-shadow: -3px 3px 2px #000000;
+    margin-top: 85px;
+    margin-bottom: 61px;
+}
+
+body{
+    background-image: url('fotos/fundo\ do\ site.jpeg');
+
+}
+
+main{
+    
+    background-color: #ffffff;
+    margin: auto;
+    min-width: 400px;
+    max-width: 900px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px #0000008f;
+}
+
+main > p{
+    text-align: justify;
+    color: #000000;
+    font-size: 1.8em;
+    font-family: "Agdasima", sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-indent: 20px;
+    font-weight: 500;
+}
+
+#paragrafoinicio{
+    padding-top: 20px;
+}
+
+#paragrafofinal{
+    padding-bottom: 30px;
+}
