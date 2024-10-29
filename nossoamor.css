@@ -130,13 +130,25 @@ main{
     background-size: 100%;
 }
 
-.fotopreferidadela{
+.nossaprimeiraviagemjuntas{
     width: 500px;
     min-height: 210px;
     max-height: 300px;
     border: 3px solid #ffffff;
     border-radius: 10px;
-    background-image: url(fotos/foto\ preferida\ dela.jpg);
+    background-image: url();
+    background-position: center;
+    background-repeat: repeat;
+    background-size: contain;
+}
+
+.declaracao{
+    width: 500px;
+    min-height: 210px;
+    max-height: 300px;
+    border: 3px solid #ffffff;
+    border-radius: 10px;
+    background-image: url();
     background-position: center;
     background-repeat: repeat;
     background-size: contain;
