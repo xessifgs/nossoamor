@@ -21,7 +21,7 @@ header > h1{
 }
 
 body{
-    background-image: url('fotos/fundo\ do\ site.jpeg');
+    background-image: url(imagens/fundo\ coração.jpg);
 
 }
 
@@ -51,6 +51,8 @@ p{
 
 div{
     background-image: url();
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .divesquerdatopo{
