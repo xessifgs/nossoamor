@@ -56,7 +56,6 @@ main{
 
 .fotodoshow{
     width: 500px;
-    min-height: 210px;
     max-height: 300px;
     border: 3px solid #ffffff;
     border-radius: 10px;
@@ -84,8 +83,7 @@ main{
 
 .sirlene{
     width: 500px;
-    min-height: 210px;
-    max-height: 300px;
+    max-height: 600px;
     border: 3px solid #ffffff;
     border-radius: 10px;
     background-image: url(fotos/sirlene.png);
@@ -120,7 +118,6 @@ main{
 
 .eu{
     width: 500px;
-    min-height: 210px;
     max-height: 300px;
     border: 3px solid #ffffff;
     border-radius: 10px;
@@ -132,7 +129,6 @@ main{
 
 .nossaprimeiraviagemjuntas{
     width: 500px;
-    min-height: 210px;
     max-height: 300px;
     border: 3px solid #ffffff;
     border-radius: 10px;
@@ -144,7 +140,6 @@ main{
 
 .declaracao{
     width: 500px;
-    min-height: 210px;
     max-height: 300px;
     border: 3px solid #ffffff;
     border-radius: 10px;
